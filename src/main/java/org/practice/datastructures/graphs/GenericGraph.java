@@ -1,4 +1,4 @@
-package org.practice.datastructures;
+package org.practice.datastructures.graphs;
 
 import java.util.LinkedList;
 import java.util.*;
@@ -193,7 +193,7 @@ public class GenericGraph<T> {
     }
 
     public static void main(String[] args) {
-//        org.practice.datastructures.GenericGraph<Integer> graph = new org.practice.datastructures.GenericGraph<>(true);
+//        org.practice.datastructures.graphs.GenericGraph<Integer> graph = new org.practice.datastructures.graphs.GenericGraph<>(true);
 //        graph.addEdge(0,1);
 //        graph.addEdge(1,2);
 //        graph.addEdge(2,3);

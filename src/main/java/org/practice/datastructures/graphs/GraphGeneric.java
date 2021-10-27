@@ -1,4 +1,4 @@
-package org.practice.datastructures;
+package org.practice.datastructures.graphs;
 
 import java.util.HashMap;
 import java.util.HashSet;
