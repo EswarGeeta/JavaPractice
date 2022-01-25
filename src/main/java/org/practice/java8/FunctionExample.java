@@ -20,6 +20,8 @@ public class FunctionExample {
         System.out.println(names.stream().sorted(Comparator.comparing(String::length)).collect(Collectors.toList()));
         System.out.println(names.stream().sorted((name1, name2) -> Integer.compare(name1.length(), name2.length())).collect(Collectors.toList()));
 
+        names.forEach(System.out::println);
+        names.stream().count();
 
         System.out.println(names.stream().collect(Collectors.joining()));
         System.out.println(names.stream().collect(Collectors.joining(" - ")));

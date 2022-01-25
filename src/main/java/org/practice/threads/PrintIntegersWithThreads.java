@@ -39,10 +39,12 @@ public class PrintIntegersWithThreads {
 		even.start();
 
 
+		Thread thre = new Thread(() -> System.out.println("Implementing runnable with lambda"));
+
 		Runnable runnable = new Runnable() {
 			@Override
 			public void run() {
-				System.out.println("Implementing runnbale with out lambda");
+				System.out.println("Implementing runnable with out lambda");
 			}
 		};
 		Runnable runnable1 = () -> {
