@@ -9,7 +9,7 @@ public class OverlapIntervals {
 
         ArrayList<pair> vec = new ArrayList<>();
         vec.add(new pair(6,8));
-        vec.add(new pair(1,9));
+        vec.add(new pair(1,3));
         vec.add(new pair(2,4));
         vec.add(new pair(4,7));
         ArrayList<pair> result = overlappedInterval(vec, vec.size());

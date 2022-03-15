@@ -9,8 +9,8 @@ public class JavaCollectionsTest {
     public static void main(String[] args) {
         Map<Integer, Integer> testMap = new TreeMap<>(Comparator.reverseOrder());
         testMap.put(10, 100);
-        testMap.put(20, 200);
-        testMap.put(5, 50);
+        testMap.put(20, 20);
+        testMap.put(5, 500);
         testMap.forEach( (k, v) -> System.out.println(k + " " + v));
     }
 }
